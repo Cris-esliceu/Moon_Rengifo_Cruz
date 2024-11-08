@@ -1,0 +1,111 @@
+
+.font{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+body{
+
+    font-size: 15px;
+    background-color: #03045E;
+}
+
+main{
+    background-image:url(../img/moon.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+nav {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    border:50px;
+    justify-content: space-around;
+    }
+
+a:hover{
+        color: white;
+        background-color:#0078B7;
+        background-size: 5rem;
+    }
+
+a:visited{
+        text-decoration: none;
+        text-transform: none;
+    }
+    
+
+footer{
+    color: white;
+    background-size: 5rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+}
+
+a{
+color: white;
+list-style: none;
+text-decoration: none;
+background-color:#03045E;
+font-size: 20px;
+}
+h1, p, a{
+    z-index: 2;
+}
+.caja{
+    background-color: rgb(0, 255, 255,0.2);
+    text-align: center;
+    border:5px solid #03045E ;
+    
+}
+
+.index{
+font-size: 1.3em;
+}
+
+.index::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0.0.2);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+legend{
+    color: black;
+    text-align: center;
+    font: bold
+
+}
+fieldset{
+    border-radius: 5px;
+    border-color: #03045E;
+}
+.formulari{
+    background-color: rgb(0, 255, 255, 0.2);
+    text-align: center;
+ 
+}
+
+input{
+    background-color: aqua;
+    flex-direction: column;
+    flex: auto;
+    border-radius: 5px;
+    border-color: #03045E;
+}
+
+
+input [type=text]{
+    background-color: gray;
+}
